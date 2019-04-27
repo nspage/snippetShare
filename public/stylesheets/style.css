@@ -1,8 +1,45 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 5px;
 }
 
-a {
-  color: #00B7FF;
+header {
+  background-color:
+}
+
+main {
+  display:flex;
+}
+#nav_complete {
+  display: flex;
+  justify-content: space-between;
+}
+
+#center_header {
+  display:flex ;
+  justify-content: space-around;
+}
+
+#picto_avatar {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+#right_header {
+  display: flex;
+
+}
+
+#page_perso {
+  width: 100%;
+}
+
+#photo_perso> img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+body> header> nav> div> a> img {
+  width: 80px;
 }
