@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> snippetShare </title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+
+</head>
+
+<body>
+
+  <%- include('header') %>
+
+  <main>
+
+    <div id="page_perso">
+
+      <form>
+
+        <div class="form-row">
+
+          <div class="form-group col-md-2" id="photo_perso">
+            <img src="images/avatar-1.jpg" alt="My picture">
+          </div>
+
+          <div class="form-group col-md-5">
+            <label for="exampleFirstName">First Name</label>
+            <input type="text" class="form-control" placeholder="First Name">
+          </div>
+
+          <div class="form-group col-md-5">
+            <label for="exampleLastName">Last Name</label>
+            <input type="text" class="form-control" placeholder="Last Name">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="Description">Description</label>
+          <input type="text" class="form-control desc" placeholder="Tell us about yourself...">
+        </div>
+
+        <div class="form-group">
+          <label for="inputAddress2">Email</label>
+          <input type="email" class="form-control" placeholder="Enter email">
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" placeholder="Password">
+          </div>
+
+          <div class="form-group col-md-4">
+            <label for="inputState">Skills</label>
+            <select class="form-control">
+              <option selected>Choose...</option>
+              <option> HTML/CSS </option>
+              <option> BootStrap</option>
+              <option> JavaScript </option>
+              <option> ReactJs </option>
+              <option> FrontEnd </option>
+              <option> BackEnd </option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save</button>
+
+
+      </form>
+    </div>
+
+  </main>
+
+
+</body>
+
+</html>
