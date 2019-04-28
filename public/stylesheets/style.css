@@ -10,6 +10,48 @@ a {
   color: #00B7FF;
 }
 
+/* css index */
+
+.imgDesc{
+  width : 75%;
+}
+.navbar {
+  background-color: #006494;
+}
+a {
+  color: #00B7FF;
+}
+#navSignIn {
+  display : flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left-welcome{
+  width : 50%;
+  display : flex;
+  flex-direction: column;
+
+}
+.right-welcome{
+  width : 50%;
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcome{
+display: flex;
+justify-content: space-between;
+margin-top: 15px;
+}
+
+.formTitle {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* css account */
+
 #nav_complete {
   display: flex;
   justify-content: space-between;
